@@ -10,10 +10,29 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string MyName;
+            /*string MyName;
             MyName = "Nika";
+            const string MyAge = "12";
             Console.WriteLine(MyName);
-            Console.ReadKey();
+            Console.WriteLine("\tПривет, мир");
+            Console.WriteLine("\tМне"+ " " + MyAge + " " + "лет");
+            Console.WriteLine("\tMy name is" + " \n" + MyName);
+            Console.WriteLine("\u0023");
+            Console.ReadKey();*/
+            const string MyName = "Nika";
+            Console.WriteLine("My name is" + " " + MyName);
+
+            int MyAge;
+            MyAge = 18;
+            Console.WriteLine("My age is" + " " + MyAge);
+
+            bool pet = true;
+            Console.WriteLine("Do you have a pet?" + " " + pet);
+
+            int ssize;
+            ssize = 37;
+            Console.WriteLine("My shoe size is" + " " + ssize);
+            Console.ReadLine();
         }
     }
 }
