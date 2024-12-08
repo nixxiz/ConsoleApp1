@@ -19,7 +19,9 @@ namespace ConsoleApp1
             Console.WriteLine("\tMy name is" + " \n" + MyName);
             Console.WriteLine("\u0023");
             Console.ReadKey();*/
-            string MyName = "Nika";
+
+
+            /*string MyName = "Nika";
             Console.WriteLine("My name is " + MyName);
             byte MyAge = 18;
             Console.WriteLine("My age is " + MyAge);
@@ -27,7 +29,16 @@ namespace ConsoleApp1
             Console.WriteLine("Do I have a pet? " + pet);
             double ssize = 37.5;
             Console.WriteLine("My shoe size is " + ssize);
-            Console.ReadLine();
+            Console.ReadLine();*/
+
+
+
         }
+    }
+    enum Semaphore
+    {
+        Red = 100,
+        Yellow = 200,
+        Green = 300
     }
 }
