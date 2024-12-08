@@ -21,7 +21,7 @@ namespace ConsoleApp1
             Console.ReadKey();*/
             string MyName = "Nika";
             Console.WriteLine("My name is " + MyName);
-            int MyAge = 18;
+            byte MyAge = 18;
             Console.WriteLine("My age is " + MyAge);
             bool pet = true;
             Console.WriteLine("Do I have a pet? " + pet);
