@@ -10,9 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string str = Console.ReadLine();
-            Console.Write(str);
+            double result = 5 / 2;
+            Console.WriteLine("5 / 2 = {0}", result);
             Console.ReadKey();
+            /*string str = Console.ReadLine();
+            Console.Write(str);
+            Console.ReadKey();*/
+
             /*var name = "Jane";
             var age = 27;
             var favcolor = "black";
