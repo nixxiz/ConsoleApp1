@@ -10,11 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var name = "Jane";
+            string str = Console.ReadLine();
+            Console.Write(str);
+            Console.ReadKey();
+            /*var name = "Jane";
             var age = 27;
             var favcolor = "black";
             Console.WriteLine("{0} \n{1} \n{2}", name, age, favcolor);
-            Console.ReadKey();
+            Console.ReadKey();*/
 
             /*string MyName;
             MyName = "Nika";
