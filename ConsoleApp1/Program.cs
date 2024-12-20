@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,9 +11,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            double result = 5.0 / 2.0;
-            Console.WriteLine("5 / 2 = {0}", result);
+            int cont = 10;
+            Console.WriteLine("Инкремент:{0}, Значение:{1}, Декремент:{2}", ++cont, --cont, --cont);
+            Console.WriteLine("Value : {0} Increment: {1}", cont, cont++);
             Console.ReadKey();
+            /*double result = 5.0 / 2.0;
+            Console.WriteLine("5 / 2 = {0}", result);
+            Console.ReadKey();*/
             /*string str = Console.ReadLine();
             Console.Write(str);
             Console.ReadKey();*/
